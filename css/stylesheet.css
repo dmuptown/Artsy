@@ -1,0 +1,88 @@
+.header, .footer {
+    background-color:black;
+    color: white;
+    padding: 25px;
+    border: 25px;
+    width: 1200px;
+    height:200px;
+    margin: 10px; 5px;
+    letter-spacing: 5px;
+}
+.flexbox-container {
+    display:flex;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    justify-content: space-around;
+    align-content:flex-start;
+    align-items:flex-start;
+      width: 1200px;
+}
+.box1 {
+    display:inline-block;
+    background-color: white; 
+    padding: 25px;
+    border: 20px;
+    width: 400px;
+/*    height:600px;*/
+    margin: 20px; 10px;
+    letter-spacing: 10px;
+    
+}
+.smallbox {
+    background-color: red;
+    padding: 5px;
+    border: 20px;
+    width: 200px;
+    height:100px;
+    margin: 10px; 5px;
+    letter-spacing: 2px;
+}
+    .p {
+    color:azure;
+    font-style:oblique;
+    font-family: monospace;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    font-variant: inherit;
+    line-height: none;
+}
+
+.box2 {
+    display: inline-block;
+    background-color: black;
+    padding: 20px;
+    border: 25px;
+    width: 1000px;
+    height:1200px;
+    margin: 10px; 5px;
+    letter-spacing: 5px;
+    }
+.artists1{ 
+background-color:aqua;
+  height:600px;
+  width:800px;
+}
+.artists2 {
+  display: inline-block;
+  background-color:white;
+  height:600px;
+  width:800px;
+}
+.pics {
+  width:50%;
+ margin: 5px;
+ background-color: purple;
+    
+}
+.smallbox {
+    display:inline-flex;
+    background-color: red;
+    padding: 5px;
+    border: 20px;
+    width: 200px;
+    height:100px;
+    margin: 10px; 5px;
+    letter-spacing: 2px;
+}
+
